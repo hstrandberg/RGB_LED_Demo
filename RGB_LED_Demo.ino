@@ -1,4 +1,4 @@
-#Small demo to test out the RGB LED
+//Small demo to test out the RGB LED
 const byte ledPins[]={9, 10, 11};
 
 
@@ -11,15 +11,15 @@ void setup() {
 
 void loop() {
   int r,g,b;
-  //r=random(0,255);
-  //g=random(0,255);
-  //b=random(0,255);
-  r=0;
-  g=0;
-  b=130;
-  strobo(100,15,r,g,b);
-  delay(10000);
-  fade(10);
+  //r=random(0,244);
+  //g=random(0,244);
+  //b=random(0,244);
+  r=244;
+  g=66;
+  b=188;
+  strobo(1000,1,r,g,b);
+  delay(1000);
+  //fade(25);
 }
 void strobo(int numbers, int delay_time, int r, int b, int g){
   for(int i = 0; i <= numbers; i++){
