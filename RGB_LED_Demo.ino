@@ -13,7 +13,7 @@ void loop() {
   //r=random(0,255);
   //g=random(0,255);
   //b=random(0,255);
-  r=255;
+  r=0;
   g=0;
   b=255;
   strobo(100,15,r,g,b);
