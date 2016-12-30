@@ -15,9 +15,9 @@ void loop() {
   //g=random(0,244);
   //b=random(0,244);
   r=0;
-  g=0;
-  b=255;
-  strobo(1000,1,r,g,b);
+  g=255;
+  b=0;
+  strobo(1000,25,r,g,b);
   delay(1000);
   //fade(25);
 }
